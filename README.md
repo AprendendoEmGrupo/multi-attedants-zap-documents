@@ -121,5 +121,16 @@ Hi, my friend! I working login feature, but i tried install jsonwebtoken module 
 - [Explanation about pipeline](./Pipeline-ci-cd.md)
 
 
+## Links helpful
+
+| About    | Language | Links |
+| -------- | ------- | ------- |
+| Queue  | Portuguese  |  [Click here](https://www.youtube.com/watch?v=U5h6B7eSiAE)    |
+| Websocket | Portuguese     |    [Click here](https://www.youtube.com/watch?v=RwUbUnPdWqs)      |
+| Redis    | Portuguese | [Click here](https://www.youtube.com/watch?v=HMEwYxXFTjM) and [Click here](https://www.youtube.com/watch?v=1Tfzm7Wfk74)         |
+| BullMq + Redis        |  Portuguese        |   [Click here](https://www.youtube.com/watch?v=uonKHztGhko)      |
+| Firebase storage | English | [Click here](https://www.youtube.com/watch?v=-IFRVMEhZDc) |
+| Firebase firestore | Portuguese | [Click here](https://cloud.google.com/firestore/docs/create-database-web-mobile-client-library?hl=pt-br)
+
 
 
