@@ -48,7 +48,7 @@ The project will be a project site where the focus is to gain experience, knowle
   - Jest(Unit test)
   - Prettier
   - BullMq + Redis(Queue)
- - Frontend
+- Frontend
   - Tailwind
   - Typescript
   - React.js
@@ -79,6 +79,38 @@ Others
  - Doppler e infisical(secret manager)
  - Sentry(track errors in api and cronjob) 
 
+## How to work with git in project
+
+- Branch **master** code go to production
+- Branch **staging** code go to staging. Warn: in future can have staging environment to validate if feature is ok before send production.
+- Branch **Develop** all new feature created based this branch.
+
+### Rules 
+
+- To write commit message in english
+- Never send your directly to branchs: **master**, **staging** and **develop**
+- Always you complete your feature open pull request to branch **develop**
+- When create branch for new feature you need use this pattern: feature/shor_description_about_task
+
+### Example how to work: feature login
+
+- Execute command: **git checkout develop**
+- Execute command: **git pull origin develop**
+- Execute command: **git checkout -b feature/login**
+- Execute command when complete task or want send code to Github: **git push origin feature/login**
+- Access Github 
+- Open pull request to branch **develop**
+
+## How to report error, some problem as your task or difficulty your task
+
+- Send what's task you working
+- Send error
+- Send what your tried to resolve
+
+## For example:
+
+Hi, my friend! I working login feature, but i tried install jsonwebtoken module and receive this error: **the module jsonwebtoken not found**. I search about solution in google but any solution work. I tried this links: https://www.youtube.com/ and https://www.youtube.com/
+
 ## The documents:
 
 - [Database diagram](./database-diagram.png)
@@ -87,5 +119,7 @@ Others
 - [Flows of application](./flow-pipeline.png)
 - [Pipeline diagram](./flow-pipeline.png)
 - [Explanation about pipeline](./Pipeline-ci-cd.md)
+
+
 
 
