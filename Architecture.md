@@ -67,3 +67,24 @@
 - 7º step: Client give feedback about attendance and dashboard send data to api 
 
 
+
+## Tips: How to scale this architecture
+
+- Database: 
+    We can run your postgres database your solutions like RDS in AWS and this solution you can increase the hardware to handle you demand.
+
+    Case you have a lot read operations you can create one replica for your database and send all queries to replica
+- Api:
+    We can create more machines where each machine has the api code, add load balance on front this machines to split request between machines.
+
+    We can automate this process create more machines with api running using Auto scale in AWS. For example: you have 2 machines case your demand increase and 2 machines cpu reached 70% you can set up auto-scale to add one more machine.
+- Consumer
+    We can create new machines where has application responsable to process message. For example: you have 1 consumer, but no enough to process all messages, you create new message, so now you have 2 machines to process queue messages.
+- Frontend
+    We can add CDN to serve static files like: css, js and images. Because CDN cached this files prevent try get files in source all times and CDN cache files in your serves around the world, so i make request to get image the CDN delivery this file for me nearest to me
+- Bot
+    We can create one machine to run only the bot application that way prevent share machine resource with api application.
+
+    Case we already setup one machine exclusive to bot application we can increase hardware.
+    
+
