@@ -79,6 +79,19 @@ Others
  - Doppler e infisical(secret manager)
  - Sentry(track errors in api and cronjob) 
 
+## How to work Github project management task
+
+- Backlog: in this column you all thing client(owner of project) request
+- Todo: in this column you have all tasks necessaries to complete the backlog task.
+- In progress: in this column you have all tasks the dev team your current.
+- Validate PR's: in this column you have all tasks the dev team completed and open pull request to validate
+- Done: in this column you have all tasks validated and completed. In this step all tasks are branch master.
+
+### Rules
+
+- Each developer can have one tasks in column **In progress**
+- After completed task and open pull request you need to move task for column **Validate PR's**
+
 ## How to work with git in project
 
 - Branch **master** code go to production
