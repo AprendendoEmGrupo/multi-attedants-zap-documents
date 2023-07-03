@@ -81,11 +81,11 @@ Others
 
 ## How to work Github project(task management)
 
-- Backlog: in this column you all thing client(owner of project) request
-- Todo: in this column you have all tasks necessaries to complete the backlog task.
-- In progress: in this column you have all tasks the dev team your current.
-- Validate PR's: in this column you have all tasks the dev team completed and open pull request to validate
-- Done: in this column you have all tasks validated and completed. In this step all tasks are branch master.
+- **Backlog**: in this column you all thing client(owner of project) request
+- **Todo**: in this column you have all tasks necessaries to complete the backlog task.
+- **In progress**: in this column you have all tasks the dev team your current.
+- **Validate PR's**: in this column you have all tasks the dev team completed and open pull request to validate
+- **Done**: in this column you have all tasks validated and completed. In this step all tasks are branch master.
 
 ### Rules
 
