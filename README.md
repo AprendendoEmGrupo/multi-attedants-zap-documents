@@ -79,7 +79,7 @@ Others
  - Doppler e infisical(secret manager)
  - Sentry(track errors in api and cronjob) 
 
-## How to work Github project management task
+## How to work Github project(task management)
 
 - Backlog: in this column you all thing client(owner of project) request
 - Todo: in this column you have all tasks necessaries to complete the backlog task.
