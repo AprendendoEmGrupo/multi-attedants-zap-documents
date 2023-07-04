@@ -134,6 +134,14 @@ Hi, my friend! I working login feature, but i tried install jsonwebtoken module 
 - [Explanation about pipeline](./Pipeline-ci-cd.md)
 
 
+## The repositories of project
+
+- [Frontend](https://github.com/AprendendoEmGrupo/multi-attendants-zap-frontend)
+- [Api](https://github.com/AprendendoEmGrupo/multi-attendants-zap-api)
+- [Bot](https://github.com/AprendendoEmGrupo/multi-attendants-zap-bot)
+
+
+
 ## Links helpful
 
 | About    | Language | Links |
